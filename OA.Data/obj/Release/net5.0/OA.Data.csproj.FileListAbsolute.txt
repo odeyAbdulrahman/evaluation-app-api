@@ -1,0 +1,15 @@
+E:\Projects\Api\evaluation-app\OA.Data\bin\Release\net5.0\OA.Data.deps.json
+E:\Projects\Api\evaluation-app\OA.Data\bin\Release\net5.0\OA.Data.runtimeconfig.json
+E:\Projects\Api\evaluation-app\OA.Data\bin\Release\net5.0\OA.Data.runtimeconfig.dev.json
+E:\Projects\Api\evaluation-app\OA.Data\bin\Release\net5.0\OA.Data.dll
+E:\Projects\Api\evaluation-app\OA.Data\bin\Release\net5.0\ref\OA.Data.dll
+E:\Projects\Api\evaluation-app\OA.Data\bin\Release\net5.0\OA.Data.pdb
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.csproj.AssemblyReference.cache
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.AssemblyInfoInputs.cache
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.AssemblyInfo.cs
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.csproj.CoreCompileInputs.cache
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.dll
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\ref\OA.Data.dll
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.pdb
+E:\Projects\Api\evaluation-app\OA.Data\obj\Release\net5.0\OA.Data.genruntimeconfig.cache

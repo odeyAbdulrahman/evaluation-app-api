@@ -1,0 +1,15 @@
+E:\Projects\Api\evaluation-app\OA.Dtos\bin\Release\net5.0\OA.Dtos.deps.json
+E:\Projects\Api\evaluation-app\OA.Dtos\bin\Release\net5.0\OA.Dtos.dll
+E:\Projects\Api\evaluation-app\OA.Dtos\bin\Release\net5.0\ref\OA.Dtos.dll
+E:\Projects\Api\evaluation-app\OA.Dtos\bin\Release\net5.0\OA.Dtos.pdb
+E:\Projects\Api\evaluation-app\OA.Dtos\bin\Release\net5.0\OA.Base.dll
+E:\Projects\Api\evaluation-app\OA.Dtos\bin\Release\net5.0\OA.Base.pdb
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.csproj.AssemblyReference.cache
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.AssemblyInfoInputs.cache
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.AssemblyInfo.cs
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.csproj.CoreCompileInputs.cache
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.csproj.CopyComplete
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.dll
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\ref\OA.Dtos.dll
+E:\Projects\Api\evaluation-app\OA.Dtos\obj\Release\net5.0\OA.Dtos.pdb

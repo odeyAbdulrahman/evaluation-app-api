@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "22c50505-5d13-48af-973e-616c1a0a805d": {
+      "ProjectGuid": "22c50505-5d13-48af-973e-616c1a0a805d",
+      "DisplayName": "OA.Api",
+      "ColorIndex": 0
+    },
+    "fb9e9b44-e044-41e9-9e7d-28419d35c22b": {
+      "ProjectGuid": "fb9e9b44-e044-41e9-9e7d-28419d35c22b",
+      "DisplayName": "OA.Data",
+      "ColorIndex": 1
+    },
+    "4e0c099e-9901-4709-aae1-8ce98477e904": {
+      "ProjectGuid": "4e0c099e-9901-4709-aae1-8ce98477e904",
+      "DisplayName": "OA.Repo",
+      "ColorIndex": 2
+    },
+    "eea6c977-acf8-4292-bcc5-0af9c49fefab": {
+      "ProjectGuid": "eea6c977-acf8-4292-bcc5-0af9c49fefab",
+      "DisplayName": "OA.Base",
+      "ColorIndex": 3
+    },
+    "923f1df5-df2e-45de-9380-7fafef774efc": {
+      "ProjectGuid": "923f1df5-df2e-45de-9380-7fafef774efc",
+      "DisplayName": "OA.Service",
+      "ColorIndex": 4
+    },
+    "6320db4b-4f99-4301-87f6-1cd9b85a3378": {
+      "ProjectGuid": "6320db4b-4f99-4301-87f6-1cd9b85a3378",
+      "DisplayName": "OA.Dtos",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}
