@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Api\\evaluation-app\\OA.Api\\OA.Api.csproj": {}
+    "E:\\Projects\\git\\evaluation-app-api\\OA.Api\\OA.Api.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Api\\evaluation-app\\OA.Api\\OA.Api.csproj": {
+    "E:\\Projects\\git\\evaluation-app-api\\OA.Api\\OA.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Api\\OA.Api.csproj",
+        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Api\\OA.Api.csproj",
         "projectName": "OA.Api",
-        "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Api\\OA.Api.csproj",
+        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Api\\OA.Api.csproj",
         "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Api\\obj\\",
+        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,14 +31,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj": {
-                "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj"
+              "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
+                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj"
               },
-              "E:\\Projects\\Api\\evaluation-app\\OA.Dtos\\OA.Dtos.csproj": {
-                "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Dtos\\OA.Dtos.csproj"
+              "E:\\Projects\\git\\evaluation-app-api\\OA.Dtos\\OA.Dtos.csproj": {
+                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Dtos\\OA.Dtos.csproj"
               },
-              "E:\\Projects\\Api\\evaluation-app\\OA.Service\\OA.Service.csproj": {
-                "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Service\\OA.Service.csproj"
+              "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj": {
+                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj": {
+    "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj",
+        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj",
         "projectName": "OA.Base",
-        "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj",
+        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj",
         "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Base\\obj\\",
+        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -217,14 +217,14 @@
         }
       }
     },
-    "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj": {
+    "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj",
+        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
         "projectName": "OA.Data",
-        "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj",
+        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
         "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\obj\\",
+        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -304,14 +304,14 @@
         }
       }
     },
-    "E:\\Projects\\Api\\evaluation-app\\OA.Dtos\\OA.Dtos.csproj": {
+    "E:\\Projects\\git\\evaluation-app-api\\OA.Dtos\\OA.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Dtos\\OA.Dtos.csproj",
+        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Dtos\\OA.Dtos.csproj",
         "projectName": "OA.Dtos",
-        "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Dtos\\OA.Dtos.csproj",
+        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Dtos\\OA.Dtos.csproj",
         "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Dtos\\obj\\",
+        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -331,8 +331,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj": {
-                "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj"
+              "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
+                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj"
               }
             }
           }
@@ -365,14 +365,14 @@
         }
       }
     },
-    "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\OA.Repo.csproj": {
+    "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\OA.Repo.csproj",
+        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
         "projectName": "OA.Repo",
-        "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\OA.Repo.csproj",
+        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
         "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\obj\\",
+        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -392,8 +392,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj": {
-                "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj"
+              "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj": {
+                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj"
               }
             }
           }
@@ -434,14 +434,14 @@
         }
       }
     },
-    "E:\\Projects\\Api\\evaluation-app\\OA.Service\\OA.Service.csproj": {
+    "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Service\\OA.Service.csproj",
+        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj",
         "projectName": "OA.Service",
-        "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Service\\OA.Service.csproj",
+        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj",
         "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Service\\obj\\",
+        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -461,11 +461,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj": {
-                "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Base\\OA.Base.csproj"
+              "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
+                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj"
               },
-              "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\OA.Repo.csproj": {
-                "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\OA.Repo.csproj"
+              "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj": {
+                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj"
               }
             }
           }

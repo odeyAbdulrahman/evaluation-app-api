@@ -5961,11 +5961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj",
+      "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
       "projectName": "OA.Data",
-      "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj",
+      "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
       "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\obj\\",
+      "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

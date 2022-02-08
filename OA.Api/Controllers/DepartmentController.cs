@@ -37,10 +37,10 @@ namespace evaluation_app.Controllers
 
         [AllowAnonymous]
         [HttpGet("{id}")]
-        public async Task<ActionResult> GetAsync(short? id)
+        public async Task<ActionResult> GetAsync([FromRoute] short? id)
         {
             Id = id;
-            if (Id is null)
+            if (Id == null)
                 return Ok(Response(FeedBack.NotFound));
             Model = await UnitOfWork.DepartmentService.FirstOrDefaultAsync(filter: x => x.Id == (int)Id, x => x.User, x => x.ApplicationUserCreatedBy, x => x.ApplicationUserUpdatedBy);
             if (Model is null)

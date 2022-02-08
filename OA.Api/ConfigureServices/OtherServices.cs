@@ -8,6 +8,8 @@ using OA.Api.ConfigureServices;
 using OA.Api.Common.FeatureFlagsBase;
 using OA.Api.UnitOfWork;
 using OA.Repo;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 
 namespace OA.api.ConfigureServices
 {

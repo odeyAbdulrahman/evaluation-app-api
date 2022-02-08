@@ -5942,11 +5942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\OA.Repo.csproj",
+      "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
       "projectName": "OA.Repo",
-      "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\OA.Repo.csproj",
+      "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
       "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\Api\\evaluation-app\\OA.Repo\\obj\\",
+      "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5966,8 +5966,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj": {
-              "projectPath": "E:\\Projects\\Api\\evaluation-app\\OA.Data\\OA.Data.csproj"
+            "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj": {
+              "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj"
             }
           }
         }

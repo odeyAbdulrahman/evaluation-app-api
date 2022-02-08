@@ -147,7 +147,7 @@ namespace OA.Api.Common.HttpClientsBase
                 return FeedBack.ServeErrorFail;
             }
         }
-        private AlternateView ContactMailBody(string name, string Email, string Phone, string title, string message)
+        private static AlternateView ContactMailBody(string name, string Email, string Phone, string title, string message)
         {
             string body = "<P> الاسم :" + name + " <br />" +
 
@@ -172,7 +172,7 @@ namespace OA.Api.Common.HttpClientsBase
             AlternateView.CreateAlternateViewFromString(str, null, MediaTypeNames.Text.Html);
             return AV;
         }
-        private AlternateView ResetPasswordMailBody(string Url)
+        private static AlternateView ResetPasswordMailBody(string Url)
         {
             string body = "<P></p>";
 

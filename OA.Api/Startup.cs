@@ -1,3 +1,4 @@
+using evaluation_app.Middleware.AntiXssMiddleware.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -50,6 +51,7 @@ namespace evaluation_app
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Evaluation app v1"));
             }
+            app.UseAntiXssMiddleware();
             app.ConfigureCustomExceptionHandler(loggerFactory);
             app.UseHttpsRedirection();
             app.UseCors("AllowOrigin");
