@@ -20,6 +20,9 @@ namespace OA.Dtos.ServiceViewModel
         public string DepartmentName { get; set; }
         public string DepartmentNameAr { get; set; }
         public string DepartmentNameUr { get; set; }
+        public string SubDepartmentName { get; set; }
+        public string SubDepartmentNameAr { get; set; }
+        public string SubDepartmentNameUr { get; set; }
         public string UserName { get; set; }
         public string UserNameAr { get; set; }
     }
@@ -31,6 +34,7 @@ namespace OA.Dtos.ServiceViewModel
     {
         public string UserId { get; set; }
         public short? DepartmentId { get; set; }
+        public short? SubDepartmentId { get; set; }
     }
     public class PutEvaluationViewModel : SheardEvaluationViewModel
     {

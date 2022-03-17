@@ -20,9 +20,11 @@ namespace OA.Data.Models
         [Required]
         public DateTime Date { get; set; }
         public string UserId { get; set; }
-        public short? DepartmentId { get; set; }
+        public short? DepartmentId { get; set; } = null;
+        public short? SubDepartmentId { get; set; } = null;
         public AspNetUser User { get; set; }
         public Department Department { get; set; }
+        public SubDepartment SubDepartment { get; set; }
 
     }
 }

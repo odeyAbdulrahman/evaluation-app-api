@@ -251,7 +251,7 @@ namespace OA.Api.Controllers
         {
             model.DefaultRole = ((int)EnumUserRole.Employee).ToString();
             model.OTPCode = int.Parse(UnitOfWork.GenerateRandomService.Random4Digit());
-            model.OTPDate = UnitOfWork.DateTimeService.GetCurrentDateTime((int)EnumTimeZones.SaudiArab);
+            model.OTPDate = UnitOfWork.DateTimeService.GetCurrentDateTime((int)EnumTimeZones.Emarat);
             model.DateCreated = model.OTPDate; model.OTPIsUsed = false;
             (FeedBack, AspNetUser) Result = await UnitOfWork.UserAuthService.PostAsync(model);
             if (Result.Item1 == FeedBack.AddedSuccess)

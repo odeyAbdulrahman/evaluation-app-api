@@ -54,7 +54,7 @@ namespace evaluation_app.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAsync()
         {
-            var Models = await UnitOfWork.DepartmentService.ListAsync(filter: x => x.Id != 1, orderBy: x => x.OrderBy(xx => xx.Name), x => x.User, x => x.ApplicationUserCreatedBy, x => x.ApplicationUserUpdatedBy);
+            var Models = await UnitOfWork.DepartmentService.ListAsync(filter: x => x.Id != 1, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.ApplicationUserCreatedBy, x => x.ApplicationUserUpdatedBy);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)
@@ -64,7 +64,7 @@ namespace evaluation_app.Controllers
         [HttpGet("{skip}/{take}")]
         public async Task<ActionResult> GetAsync(int skip, int take)
         {
-            var Models = await UnitOfWork.DepartmentService.ListAsync(skip, take, filter: x => x.Id != 1, orderBy: x => x.OrderBy(xx => xx.Name), x => x.User, x => x.ApplicationUserCreatedBy, x => x.ApplicationUserUpdatedBy);
+            var Models = await UnitOfWork.DepartmentService.ListAsync(skip, take, filter: x => x.Id != 1, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.ApplicationUserCreatedBy, x => x.ApplicationUserUpdatedBy);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)
@@ -75,7 +75,7 @@ namespace evaluation_app.Controllers
         public async Task<ActionResult> GetAsync(DateTime from, DateTime to, int skip, int take)
         {
             From = from; To = to;
-            var Models = await UnitOfWork.DepartmentService.ListAsync(skip, take, filter: x => x.Id != 1 && x.CreatedDate >= From && x.CreatedDate <= To, orderBy: x => x.OrderBy(xx => xx.Name), x => x.User, x => x.ApplicationUserCreatedBy, x => x.ApplicationUserUpdatedBy);
+            var Models = await UnitOfWork.DepartmentService.ListAsync(skip, take, filter: x => x.Id != 1 && x.CreatedDate >= From && x.CreatedDate <= To, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.ApplicationUserCreatedBy, x => x.ApplicationUserUpdatedBy);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)

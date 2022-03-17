@@ -149,15 +149,13 @@ namespace OA.Api.Common.HttpClientsBase
         }
         private static AlternateView ContactMailBody(string name, string Email, string Phone, string title, string message)
         {
-            string body = "<P> الاسم :" + name + " <br />" +
-
-                          "البريد الالكتروني:" + Email + "<br /><br />" +
+            string body =
 
                           "<b> رقم الهاتف " + Phone + "</b> <br /><br /> " +
 
-                          "<b> عنوان الموضوع " + title + "</b> <br /><br /> " +
+                          "<b> التقيم " + title + "</b> <br /><br /> " +
 
-                          "<P> الموضوع " + message + "</P> <br /><br /> ";
+                          "<P> الملاحظة " + message + "</P> <br /><br /> ";
 
             string str = @"  
                 <table>  

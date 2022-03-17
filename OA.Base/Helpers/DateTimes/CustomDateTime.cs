@@ -17,10 +17,5 @@ namespace OA.Base.Helpers.DateTimes
         {
             return DateTime.ParseExact(string.Format("{0:yyyy-MM-dd hh: mm:ss t}", DateTime.UtcNow.AddHours(hour)), "yyyy-MM-dd hh: mm:ss t", null);
         }
-        public DateTime GetLastDateOfDayOfWeek(DateTime currentDate)
-        {
-            DayOfWeek CurrentDayOfWeek = currentDate.DayOfWeek;
-            return currentDate.AddDays(5 - (int)CurrentDayOfWeek);
-        }
     }
 }

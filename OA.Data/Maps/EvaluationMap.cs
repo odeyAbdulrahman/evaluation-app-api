@@ -20,6 +20,12 @@ namespace OA.Data.Maps
                          .OnDelete(DeleteBehavior.Restrict)
                          .IsRequired(false);
 
+            entityBuilder.HasOne(s => s.SubDepartment)
+                         .WithMany(u => u.Evaluations)
+                         .HasForeignKey(s => s.SubDepartmentId)
+                         .OnDelete(DeleteBehavior.Restrict)
+                         .IsRequired(false);
+
             entityBuilder.HasOne(s => s.User)
                 .WithMany(u => u.Evaluations)
                 .HasForeignKey(s => s.UserId)

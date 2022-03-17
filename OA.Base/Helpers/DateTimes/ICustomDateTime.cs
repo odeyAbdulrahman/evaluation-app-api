@@ -14,13 +14,5 @@ namespace OA.Base.Helpers.DateTimes
         /// </summary>
         /// <returns></returns>
         DateTime CustomDateTimeFormat(int hour);
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="currentDate"></param>
-        /// <param name="valueDayOfWeek"></param>
-        /// <param name="keyDayOfWeek"></param>
-        /// <returns></returns>
-        DateTime GetLastDateOfDayOfWeek(DateTime currentDate);
     }
 }

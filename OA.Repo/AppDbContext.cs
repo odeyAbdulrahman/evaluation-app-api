@@ -20,6 +20,7 @@ namespace OA.Data
 
         public DbSet<AspNetUser> ApplicationUsers { get; set; }
         public DbSet<Department> Departments { get; set; }
+        public DbSet<SubDepartment> SubDepartments { get; set; }
         public DbSet<DepartmentEmployee> DepartmentEmployees { get; set; }
         public DbSet<Evaluation> Evaluations { get; set; }
 
@@ -34,6 +35,7 @@ namespace OA.Data
             base.OnModelCreating(modelBuilder);
             _ = new AspNetUserMap(modelBuilder.Entity<AspNetUser>());
             _ = new DepartmentMap(modelBuilder.Entity<Department>());
+            _ = new SubDepartmentMap(modelBuilder.Entity<SubDepartment>());
             _ = new DepartmentEmployeeMap(modelBuilder.Entity<DepartmentEmployee>());
             _ = new EvaluationMap(modelBuilder.Entity<Evaluation>());
 

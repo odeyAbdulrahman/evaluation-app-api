@@ -36,10 +36,7 @@ namespace OA.Base.Enums
     {
         User = 231542980,
         Employee = 650003211,
-        Editor = 411880522,
-        Customer = 533384120,
-        Admin = 110579020,
-        GeneralDirector = 120306380
+        Admin = 110579020
     }
 
     public enum EnumWeekDays : int
@@ -72,9 +69,8 @@ namespace OA.Base.Enums
 
     public enum EnumEmojes : int
     {
-        PissedMe = 44,
-        VeryGood = 33,
-        Good = 22,
         Like = 11,
+        Good = 33,
+        PissedMe = 44,
     }
 }

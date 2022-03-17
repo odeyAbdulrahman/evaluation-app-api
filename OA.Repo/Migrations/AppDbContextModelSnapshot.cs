@@ -379,6 +379,9 @@ namespace OA.Repo.Migrations
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<short?>("SubDepartmentId")
+                        .HasColumnType("smallint");
+
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
@@ -389,9 +392,64 @@ namespace OA.Repo.Migrations
 
                     b.HasIndex("DepartmentId");
 
+                    b.HasIndex("SubDepartmentId");
+
                     b.HasIndex("UserId");
 
                     b.ToTable("Evaluations");
+                });
+
+            modelBuilder.Entity("OA.Data.Models.SubDepartment", b =>
+                {
+                    b.Property<short>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("smallint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<short?>("DepartmentId")
+                        .HasColumnType("smallint");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("NameUr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.HasIndex("Name")
+                        .IsUnique()
+                        .HasDatabaseName("Index_Name_Unicode");
+
+                    b.HasIndex("NameAr")
+                        .IsUnique()
+                        .HasDatabaseName("Index_NameAr_Unicode")
+                        .HasFilter("[NameAr] IS NOT NULL");
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.ToTable("SubDepartments");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -506,6 +564,11 @@ namespace OA.Repo.Migrations
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Restrict);
 
+                    b.HasOne("OA.Data.Models.SubDepartment", "SubDepartment")
+                        .WithMany("Evaluations")
+                        .HasForeignKey("SubDepartmentId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("OA.Data.Models.AspNetUser", "User")
                         .WithMany("Evaluations")
                         .HasForeignKey("UserId")
@@ -513,7 +576,33 @@ namespace OA.Repo.Migrations
 
                     b.Navigation("Department");
 
+                    b.Navigation("SubDepartment");
+
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("OA.Data.Models.SubDepartment", b =>
+                {
+                    b.HasOne("OA.Data.Models.AspNetUser", "ApplicationUserCreatedBy")
+                        .WithMany("SubDepartmentsCreated")
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("OA.Data.Models.Department", "Department")
+                        .WithMany("SubDepartments")
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("OA.Data.Models.AspNetUser", "ApplicationUserUpdatedBy")
+                        .WithMany("SubDepartmentsUpdated")
+                        .HasForeignKey("UpdatedBy")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("ApplicationUserCreatedBy");
+
+                    b.Navigation("ApplicationUserUpdatedBy");
+
+                    b.Navigation("Department");
                 });
 
             modelBuilder.Entity("OA.Data.Models.AspNetUser", b =>
@@ -527,9 +616,20 @@ namespace OA.Repo.Migrations
                     b.Navigation("DepartmentsUpdated");
 
                     b.Navigation("Evaluations");
+
+                    b.Navigation("SubDepartmentsCreated");
+
+                    b.Navigation("SubDepartmentsUpdated");
                 });
 
             modelBuilder.Entity("OA.Data.Models.Department", b =>
+                {
+                    b.Navigation("Evaluations");
+
+                    b.Navigation("SubDepartments");
+                });
+
+            modelBuilder.Entity("OA.Data.Models.SubDepartment", b =>
                 {
                     b.Navigation("Evaluations");
                 });

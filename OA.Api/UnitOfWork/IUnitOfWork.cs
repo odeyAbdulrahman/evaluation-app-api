@@ -2,7 +2,6 @@
 using OA.Base.Dictionarys;
 using OA.Base.Helpers.DateTimes;
 using OA.Base.Helpers.GenerateRandoms;
-using OA.Base.Helpers.StringCiphers;
 using OA.Data.Models;
 using OA.Service.Interfaces;
 using System;
@@ -18,7 +17,6 @@ namespace OA.Api.UnitOfWork
         IRolesDictionary RolesDictionaryService { get; }
         ICustomDateTime DateTimeService { get; }
         IGenerateRandom GenerateRandomService { get; }
-        IStringCipher StringCipherService { get; }
         IHttpClientBase HttpClientService { get; }
         // -------------------- End Base Service -------------------- //
 
@@ -27,9 +25,9 @@ namespace OA.Api.UnitOfWork
         IUserRole UserRoleService { get; }
         IUserAuth UserAuthService { get; }
         IUserManage UserManageService { get; }
-
         ICrud<Evaluation> EvaluationService { get; }
         ICrud<Department> DepartmentService { get; }
+        ICrud<SubDepartment> SubDepartmentService { get; }
         ICrud<DepartmentEmployee> DepartmentEmployeeService { get; }
     }
 }

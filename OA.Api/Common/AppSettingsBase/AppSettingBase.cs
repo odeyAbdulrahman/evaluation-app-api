@@ -55,40 +55,7 @@ namespace OA.Api.Common.AppSettingsBase
                 };
                 await RoleManager.CreateAsync(role);
             }
-            //4
-            x = await RoleManager.RoleExistsAsync(nameof(EnumUserRole.Editor));
-            if (!x)
-            {
-                var role = new IdentityRole
-                {
-                    Id = ((long)EnumUserRole.Editor).ToString(),
-                    Name = nameof(EnumUserRole.Editor)
-                };
-                await RoleManager.CreateAsync(role);
-            }
-            //5
-            x = await RoleManager.RoleExistsAsync(nameof(EnumUserRole.Customer));
-            if (!x)
-            {
-                var role = new IdentityRole
-                {
-                    Id = ((long)EnumUserRole.Customer).ToString(),
-                    Name = nameof(EnumUserRole.Customer)
-                };
-                await RoleManager.CreateAsync(role);
-            }
-            //8
-            x = await RoleManager.RoleExistsAsync(nameof(EnumUserRole.GeneralDirector));
-            if (!x)
-            {
-                var role = new IdentityRole
-                {
-                    Id = ((long)EnumUserRole.GeneralDirector).ToString(),
-                    Name = nameof(EnumUserRole.GeneralDirector)
-                };
-                await RoleManager.CreateAsync(role);
-            }
-            //12
+            //2
             x = await RoleManager.RoleExistsAsync(nameof(EnumUserRole.Employee));
             if (!x)
             {

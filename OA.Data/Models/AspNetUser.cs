@@ -36,6 +36,8 @@ namespace OA.Data.Models
         public virtual ICollection<Evaluation> Evaluations { get; set; }
         public ICollection<Department> DepartmentsCreated { get; set; }
         public ICollection<Department> DepartmentsUpdated { get; set; }
+        public ICollection<SubDepartment> SubDepartmentsCreated { get; set; }
+        public ICollection<SubDepartment> SubDepartmentsUpdated { get; set; }
         public ICollection<DepartmentEmployee> DepartmentEmployeesCreated { get; set; }
         public ICollection<DepartmentEmployee> DepartmentEmployeesUpdated { get; set; }
     }

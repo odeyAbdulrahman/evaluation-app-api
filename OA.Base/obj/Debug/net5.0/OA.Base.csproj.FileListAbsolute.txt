@@ -1,0 +1,11 @@
+E:\Projects\git\evaluation-app-api\OA.Base\bin\Debug\net5.0\OA.Base.deps.json
+E:\Projects\git\evaluation-app-api\OA.Base\bin\Debug\net5.0\OA.Base.dll
+E:\Projects\git\evaluation-app-api\OA.Base\bin\Debug\net5.0\ref\OA.Base.dll
+E:\Projects\git\evaluation-app-api\OA.Base\bin\Debug\net5.0\OA.Base.pdb
+E:\Projects\git\evaluation-app-api\OA.Base\obj\Debug\net5.0\OA.Base.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\git\evaluation-app-api\OA.Base\obj\Debug\net5.0\OA.Base.AssemblyInfoInputs.cache
+E:\Projects\git\evaluation-app-api\OA.Base\obj\Debug\net5.0\OA.Base.AssemblyInfo.cs
+E:\Projects\git\evaluation-app-api\OA.Base\obj\Debug\net5.0\OA.Base.csproj.CoreCompileInputs.cache
+E:\Projects\git\evaluation-app-api\OA.Base\obj\Debug\net5.0\OA.Base.dll
+E:\Projects\git\evaluation-app-api\OA.Base\obj\Debug\net5.0\ref\OA.Base.dll
+E:\Projects\git\evaluation-app-api\OA.Base\obj\Debug\net5.0\OA.Base.pdb

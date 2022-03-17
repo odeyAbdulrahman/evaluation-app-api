@@ -7,12 +7,12 @@ namespace OA.Base.Dictionarys
 {
     public class RolesDictionary : IRolesDictionary
     {
-        private readonly Dictionary<string, long> Roles = new Dictionary<string, long>(6);
+        private readonly Dictionary<string, long> Roles = new(3);
         public RolesDictionary AddRoles(EnumTypeRole type)
         {
             if(type == EnumTypeRole.All)
             {
-                if (Roles.Count() < 6)
+                if (Roles.Count() < 3)
                 {
                     AddAdmin();
                     AddStaff();
@@ -20,7 +20,7 @@ namespace OA.Base.Dictionarys
             }
             if (type == EnumTypeRole.Admins)
             {
-                if (Roles.Count() < 5)
+                if (Roles.Count() < 2)
                     AddAdmin();
             } else
             {
@@ -43,15 +43,13 @@ namespace OA.Base.Dictionarys
         }
         private void AddAdmin()
         {
-            Roles.Add(nameof(EnumUserRole.User), (long)EnumUserRole.User);
-            Roles.Add(nameof(EnumUserRole.Editor), (long)EnumUserRole.Editor);
-            Roles.Add(nameof(EnumUserRole.Customer), (long)EnumUserRole.Customer);
             Roles.Add(nameof(EnumUserRole.Admin), (long)EnumUserRole.Admin);
-            Roles.Add(nameof(EnumUserRole.GeneralDirector), (long)EnumUserRole.GeneralDirector);
+            Roles.Add(nameof(EnumUserRole.Employee), (long)EnumUserRole.Employee);
+
         }
         private void AddStaff()
         {
-            Roles.Add(nameof(EnumUserRole.Employee), (long)EnumUserRole.Employee);
+            Roles.Add(nameof(EnumUserRole.User), (long)EnumUserRole.User);
         }
     }
 }

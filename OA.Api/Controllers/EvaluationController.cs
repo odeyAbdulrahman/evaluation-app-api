@@ -51,7 +51,8 @@ namespace evaluation_app.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAsync()
         {
-            var Models = await UnitOfWork.EvaluationService.ListAsync(null, orderBy: x => x.OrderBy(xx => xx.Value), x => x.User, x => x.Department);
+            DepartmentEmployee Model = UnitOfWork.DepartmentEmployeeService.FirstOrDefaultAsync(filter: x => x.UserId == CurrentUser()).GetAwaiter().GetResult();
+            var Models = await UnitOfWork.EvaluationService.ListAsync(filter: x=> x.DepartmentId == (Model != null ? Model.DepartmentId : -1), orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department, x => x.SubDepartment);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)
@@ -61,7 +62,7 @@ namespace evaluation_app.Controllers
         [HttpGet("{skip}/{take}")]
         public async Task<ActionResult> GetAsync(int skip, int take)
         {
-            var Models = await UnitOfWork.EvaluationService.ListAsync(skip, take, null, orderBy: x => x.OrderBy(xx => xx.Value), x => x.User, x => x.Department);
+            var Models = await UnitOfWork.EvaluationService.ListAsync(skip, take, null, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)
@@ -72,7 +73,7 @@ namespace evaluation_app.Controllers
         public async Task<ActionResult> GetAsync(DateTime from, DateTime to, int skip, int take)
         {
             From = from; To = to;
-            var Models = await UnitOfWork.EvaluationService.ListAsync(skip, take, filter: x => x.Date >= From && x.Date <= To, orderBy: x => x.OrderBy(xx => xx.Value), x => x.User, x => x.Department);
+            var Models = await UnitOfWork.EvaluationService.ListAsync(skip, take, filter: x => x.Date >= From && x.Date <= To, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)
@@ -84,7 +85,6 @@ namespace evaluation_app.Controllers
         public async Task<ActionResult> PostAsync([FromBody] PostEvaluationViewModel model)
         {
             model.Date = UnitOfWork.DateTimeService.GetCurrentDateTime((int)EnumTimeZones.Emarat);
-            model.DepartmentId = model.DepartmentId == 0 ? 1: model.DepartmentId;
             model.UserId = model.UserId == "" ? (await UnitOfWork.UserAuthService.FindByNameAsync("Eval")).Id: model.UserId;
             var MapViewModelInModel = Mapper.Map<Evaluation>(model);
             Feed = await UnitOfWork.EvaluationService.PostAsync(MapViewModelInModel);

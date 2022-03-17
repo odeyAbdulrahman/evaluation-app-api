@@ -92,8 +92,8 @@ namespace evaluation_app.Controllers
         [HttpPost]
         public async Task<ActionResult> PostAsync([FromBody] PostDepartmentEmployeeViewModel model)
         {
-              Model = await UnitOfWork.DepartmentEmployeeService.FirstOrDefaultAsync(filter: x => x.DepartmentId == model.DepartmentId && x.UserId == model.UserId);
-                if (Model is null)
+            Model = await UnitOfWork.DepartmentEmployeeService.FirstOrDefaultAsync(filter: x => x.DepartmentId == model.DepartmentId && x.UserId == model.UserId);
+            if (Model is not null)
                 return Ok(Response(FeedBack.IsExist));
             model.CreatedBy = CurrentUser();
             model.CreatedDate = UnitOfWork.DateTimeService.GetCurrentDateTime((int)EnumTimeZones.Emarat);
