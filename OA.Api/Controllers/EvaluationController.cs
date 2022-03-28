@@ -29,6 +29,8 @@ namespace evaluation_app.Controllers
             Mapper = mapper;
         }
         private readonly IMapper Mapper;
+        private IEnumerable<Evaluation> Models;
+
         public static int? Id { get; private set; }
         public static DateTime From { get; private set; }
         public static DateTime To { get; private set; }
@@ -51,8 +53,13 @@ namespace evaluation_app.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAsync()
         {
-            DepartmentEmployee Model = UnitOfWork.DepartmentEmployeeService.FirstOrDefaultAsync(filter: x => x.UserId == CurrentUser()).GetAwaiter().GetResult();
-            var Models = await UnitOfWork.EvaluationService.ListAsync(filter: x=> x.DepartmentId == (Model != null ? Model.DepartmentId : -1), orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department, x => x.SubDepartment);
+            DepartmentEmployee Model = UnitOfWork.DepartmentEmployeeService.FirstOrDefaultAsync(filter: x => x.UserId == CurrentUser(), x => x.User).GetAwaiter().GetResult();
+            if (Model is null)
+                return Ok(new List<EvaluationViewModel>());
+            string roleName = UnitOfWork.RolesDictionaryService.AddRoles(EnumTypeRole.All).GetRoleKey(Convert.ToInt64(Model.User.DefaultRole));
+            Models = roleName == nameof(EnumUserRole.Admin) ?
+                     await UnitOfWork.EvaluationService.ListAsync(null, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department, x => x.SubDepartment) :
+                     await UnitOfWork.EvaluationService.ListAsync(filter: x => x.DepartmentId == (Model != null ? Model.DepartmentId : -1), orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department, x => x.SubDepartment);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)

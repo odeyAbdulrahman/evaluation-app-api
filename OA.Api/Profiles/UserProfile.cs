@@ -27,7 +27,7 @@ namespace OA.Api.Profiles
             CreateMap<PostViewModel, AspNetUser>().ConstructUsing(x => new AspNetUser
             {
                 DefaultRole = ((long)x.Role).ToString(),
-                AvailabilityStatus = x.Role == EnumUserRole.User ? true : false
+                AvailabilityStatus = x.Role == EnumUserRole.Employee ? true : false
             });
             CreateMap<PutViewModel, AspNetUser>();
             CreateMap<FirebaseTokenModel, AspNetUser>();

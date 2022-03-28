@@ -83,7 +83,8 @@ namespace OA.Api.Controllers
         protected string CurrentUser()
         {
             ClaimsPrincipal CurrentUser = this.User;
-            return UnitOfWork.UserAuthService.GetUserId(CurrentUser);
+            var d = UnitOfWork.UserAuthService.GetUserId(CurrentUser);
+            return d;
         }
         /// <summary>
         /// 

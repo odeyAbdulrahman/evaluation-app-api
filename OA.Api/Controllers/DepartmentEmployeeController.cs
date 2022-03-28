@@ -36,11 +36,10 @@ namespace evaluation_app.Controllers
         public static DepartmentEmployee Model { get; private set; }
         public static (FeedBack, DepartmentEmployee) Feed { get; private set; }
 
-        [HttpGet("{deptId}")]
-        public async Task<ActionResult> GetAsync(short? deptId)
+        [HttpGet("{userId}")]
+        public async Task<ActionResult> GetAsync(string userId)
         {
-            DepartId = deptId;
-            var Models = await UnitOfWork.DepartmentEmployeeService.ListAsync(filter: x => x.DepartmentId >= DepartId, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department);
+            var Models = await UnitOfWork.DepartmentEmployeeService.ListAsync(filter: x => x.UserId == userId, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)
@@ -50,7 +49,7 @@ namespace evaluation_app.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAsync()
         {
-            var Models = await UnitOfWork.DepartmentEmployeeService.ListAsync(null, orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department);
+            var Models = await UnitOfWork.DepartmentEmployeeService.ListAsync(filter: x => x.UserId == CurrentUser(), orderBy: x => x.OrderBy(xx => xx.Id), x => x.User, x => x.Department);
             if (Models is null)
                 return Ok(Response(FeedBack.NotFound));
             if (CurrentConsumer() == EnumConsumer.cPanelConsumer)

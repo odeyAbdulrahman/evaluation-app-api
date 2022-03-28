@@ -44,17 +44,6 @@ namespace OA.Api.Common.AppSettingsBase
                     db.SaveChanges();
                 }
             }
-            //1
-            x = await RoleManager.RoleExistsAsync(nameof(EnumUserRole.User));
-            if (!x)
-            {
-                var role = new IdentityRole
-                {
-                    Id = ((long)EnumUserRole.User).ToString(),
-                    Name = nameof(EnumUserRole.User)
-                };
-                await RoleManager.CreateAsync(role);
-            }
             //2
             x = await RoleManager.RoleExistsAsync(nameof(EnumUserRole.Employee));
             if (!x)

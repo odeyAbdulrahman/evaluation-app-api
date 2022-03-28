@@ -34,7 +34,6 @@ namespace OA.Base.Enums
     }
     public enum EnumUserRole : long
     {
-        User = 231542980,
         Employee = 650003211,
         Admin = 110579020
     }

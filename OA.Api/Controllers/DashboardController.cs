@@ -29,7 +29,8 @@ namespace evaluation_app.Controllers
         }
         private readonly IMapper Mapper;
         public static int DepartmentId { get; private set; }
-        public static int SubDepartmentId { get; private set; }
+        public IEnumerable<Evaluation> Models { get; private set; }
+        public static short SubDepartmentId { get; private set; }
         public static DateTime From { get; private set; }
         public static DateTime To { get; private set; }
 
@@ -39,7 +40,7 @@ namespace evaluation_app.Controllers
             var To = UnitOfWork.DateTimeService.GetCurrentDateTime((int)EnumTimeZones.Emarat);
             var From = To.Date;
             var AllModels = await UnitOfWork.EvaluationService.ListAsync(null, orderBy: x => x.OrderBy(xx => xx.Value));
-            var Models = await UnitOfWork.EvaluationService.ListAsync(x => x.Date >= From && x.Date <= To.Date.AddDays(1),orderBy: x => x.OrderBy(xx => xx.Value));
+            var Models = await UnitOfWork.EvaluationService.ListAsync(x => x.Date >= From && x.Date <= To.Date.AddDays(1), orderBy: x => x.OrderBy(xx => xx.Value));
             List<(int, int, int)> EvaluationData = new()
             {
                 ((int)EnumEmojes.Like, Models.Count(x => x.Value == (int)EnumEmojes.Like), AllModels.Count(x => x.Value == (int)EnumEmojes.Like)),
@@ -48,14 +49,32 @@ namespace evaluation_app.Controllers
             };
             return Ok(EvaluationData);
         }
-
-        [HttpGet("{departmentId}/{subDepartmentId}/{from}/{to}")]
-        public async Task<ActionResult> GetAsync(int departmentId, int subDepartmentId, string from, string to)
+        [Authorize(Roles = nameof(EnumUserRole.Employee))]
+        [HttpGet("{subDepartmentId}/{from}/{to}")]
+        public async Task<ActionResult> GetAsync(short subDepartmentId, string from, string to)
         {
-            
-            DepartmentId = departmentId; SubDepartmentId = subDepartmentId; From = DateTime.ParseExact(from, "dd-MM-yyyy", null); To = DateTime.ParseExact(to, "dd-MM-yyyy", null);
-            var Models = subDepartmentId <= 0 ? await UnitOfWork.EvaluationService.ListAsync(x => x.DepartmentId == DepartmentId && x.Date >= From.Date && x.Date <= To.Date.AddDays(1), orderBy: x => x.OrderBy(xx => xx.Value))
-            : await UnitOfWork.EvaluationService.ListAsync(x => x.DepartmentId == DepartmentId && x.SubDepartmentId == SubDepartmentId && x.Date >= From.Date && x.Date <= To.Date.AddDays(1), orderBy: x => x.OrderBy(xx => xx.Value));
+            SubDepartmentId = subDepartmentId; From = DateTime.ParseExact(from, "dd-MM-yyyy", null); To = DateTime.ParseExact(to, "dd-MM-yyyy", null);
+            DepartmentEmployee Model = UnitOfWork.DepartmentEmployeeService.FirstOrDefaultAsync(filter: x => x.UserId == CurrentUser(), x => x.User).GetAwaiter().GetResult();
+            if (Model is null)
+                return Ok(new List<(int, int)>());
+            DepartmentId = Model.DepartmentId;
+            Models = subDepartmentId <= 0 ? await UnitOfWork.EvaluationService.ListAsync(filter: x => x.DepartmentId == DepartmentId && x.Date >= From.Date && x.Date <= To.Date.AddDays(1), orderBy: x => x.OrderBy(xx => xx.Value))
+            : await UnitOfWork.EvaluationService.ListAsync(filter: x => x.DepartmentId == DepartmentId && x.SubDepartmentId == SubDepartmentId && x.Date >= From.Date && x.Date <= To.Date.AddDays(1), orderBy: x => x.OrderBy(xx => xx.Value));
+            List<(int, int)> EvaluationData = new()
+            {
+                ((int)EnumEmojes.Like, Models.Count(x => x.Value == (int)EnumEmojes.Like)),
+                ((int)EnumEmojes.Good, Models.Count(x => x.Value == (int)EnumEmojes.Good)),
+                ((int)EnumEmojes.PissedMe, Models.Count(x => x.Value == (int)EnumEmojes.PissedMe))
+            };
+            return Ok(EvaluationData);
+        }
+        [Authorize(Roles = nameof(EnumUserRole.Admin))]
+        [HttpGet("{departmentId}/{subDepartmentId}/{from}/{to}")]
+        public async Task<ActionResult> GetAsync(short departmentId, short subDepartmentId, string from, string to)
+        {
+            DepartmentId =  departmentId; SubDepartmentId = subDepartmentId; From = DateTime.ParseExact(from, "dd-MM-yyyy", null); To = DateTime.ParseExact(to, "dd-MM-yyyy", null);
+            Models = subDepartmentId <= 0 ? await UnitOfWork.EvaluationService.ListAsync(filter: x =>  x.DepartmentId == DepartmentId && x.Date >= From.Date && x.Date <= To.Date.AddDays(1), orderBy: x => x.OrderBy(xx => xx.Value))
+            : await UnitOfWork.EvaluationService.ListAsync(filter: x => x.DepartmentId == DepartmentId && x.SubDepartmentId == SubDepartmentId && x.Date >= From.Date && x.Date <= To.Date.AddDays(1), orderBy: x => x.OrderBy(xx => xx.Value));
             List<(int, int)> EvaluationData = new()
             {
                 ((int)EnumEmojes.Like, Models.Count(x => x.Value == (int)EnumEmojes.Like)),

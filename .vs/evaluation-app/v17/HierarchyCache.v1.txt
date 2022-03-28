@@ -1,0 +1,405 @@
+﻿++Solution 'evaluation-app' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:evaluation-app.sln
+++OA.Api
+i:{00000000-0000-0000-0000-000000000000}:OA.Api
+++Connected Services 
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1633
+++Dependencies
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1632
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:>741
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:>739
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:>742
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:>740
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:>738
+++Properties
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\properties\
+++BackgroundJob
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\backgroundjob\
+++Common
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\
+++ConfigureServices
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\
+++Controllers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\
+++BaseController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\basecontroller.cs
+++DashboardController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\dashboardcontroller.cs
+++DepartmentController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\departmentcontroller.cs
+++DepartmentEmployeeController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\departmentemployeecontroller.cs
+++EvaluationController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\evaluationcontroller.cs
+++RoleController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\rolecontroller.cs
+++SubDepartmentController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\subdepartmentcontroller.cs
+++UserAuthController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\userauthcontroller.cs
+++UserManageController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\usermanagecontroller.cs
+++UserRoleController.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\controllers\userrolecontroller.cs
+++Filters
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\filters\
+++Middleware
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\middleware\
+++Profiles
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\profiles\
+++UnitOfWork
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\unitofwork\
+++AppSettings.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\appsettings.cs
+++appsettings.json
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\appsettings.json
+++Dockerfile
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\dockerfile
+++Program.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\program.cs
+++Startup.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\startup.cs
+++No service dependencies discovered
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1634
+++Analyzers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:analyzers
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:analyzers
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:analyzers
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:analyzers
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:analyzers
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:analyzers
+++Frameworks
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:frameworks
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:frameworks
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:frameworks
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:frameworks
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:frameworks
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:frameworks
+++Packages
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:packages
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:packages
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:packages
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:packages
+++Projects
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:projects
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:projects
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:projects
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:projects
+++PublishProfiles
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\properties\publishprofiles\
+++launchSettings.json
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\properties\launchsettings.json
+++BackgroundJob.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\backgroundjob\backgroundjob.cs
+++IBackgroundJob.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\backgroundjob\ibackgroundjob.cs
+++AppSettingsBase
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\appsettingsbase\
+++FeatureFlagsBase
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\featureflagsbase\
+++HttpClientsBase
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\httpclientsbase\
+++AuthenticationService.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\authenticationservice.cs
+++DbService.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\dbservice.cs
+++Endpoints.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\endpoints.cs
+++GetConfiguration.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\getconfiguration.cs
+++HealthChecksService.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\healthchecksservice.cs
+++IInstaller.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\iinstaller.cs
+++InstallerExtensions.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\installerextensions.cs
+++OtherServices.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\configureservices\otherservices.cs
+++ApiKeyAuthAttribute.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\filters\apikeyauthattribute.cs
+++ConsumerFilter.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\filters\consumerfilter.cs
+++AntiXssMiddleware
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\middleware\antixssmiddleware\
+++ExceptionHandling
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\middleware\exceptionhandling\
+++DepartmentEmployeeProfile.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\profiles\departmentemployeeprofile.cs
+++DepartmentProfile.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\profiles\departmentprofile.cs
+++EvaluationProfile.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\profiles\evaluationprofile.cs
+++SubDepartmentProfile.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\profiles\subdepartmentprofile.cs
+++UserManageProfile.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\profiles\usermanageprofile.cs
+++UserProfile.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\profiles\userprofile.cs
+++IUnitOfWork.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\unitofwork\iunitofwork.cs
+++UnitOfWork.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\unitofwork\unitofwork.cs
+++appsettings.Development.json
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\appsettings.development.json
+++.dockerignore
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\.dockerignore
+++Microsoft.AspNetCore.Analyzers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:c:\users\sadhiq\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:c:\users\sadhiq\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:c:\users\sadhiq\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:c:\users\sadhiq\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.13\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\microsoft.netcore.app
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\microsoft.netcore.app
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\microsoft.netcore.app
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\microsoft.netcore.app
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\microsoft.netcore.app
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\microsoft.netcore.app
+++AutoMapper (11.0.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1702
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1695
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.13)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1703
+++Microsoft.AspNetCore.Diagnostics.HealthChecks (2.2.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1706
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (5.0.13)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1700
+++Microsoft.EntityFrameworkCore.Design (5.0.13)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1696
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:>1661
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:>1678
+++Microsoft.EntityFrameworkCore.Tools (5.0.13)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1704
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:>1681
+++Microsoft.Extensions.Diagnostics.HealthChecks (5.0.13)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1694
+++Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions (5.0.13)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1698
+++Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore (5.0.13)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1707
+++Microsoft.Extensions.Logging (5.0.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1708
+++Microsoft.FeatureManagement (2.4.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1693
+++Microsoft.FeatureManagement.AspNetCore (2.4.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1701
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.14.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1705
+++Serilog.Extensions.Logging.File (2.0.0)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1699
+++Swashbuckle.AspNetCore (5.6.3)
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:>1697
+++OA.Base
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.base\bin\debug\net5.0\oa.base.dll
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.base\bin\debug\net5.0\oa.base.dll
+i:{00000000-0000-0000-0000-000000000000}:OA.Base
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.base\bin\debug\net5.0\oa.base.dll
+++OA.Dtos
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.dtos\bin\debug\net5.0\oa.dtos.dll
+i:{00000000-0000-0000-0000-000000000000}:OA.Dtos
+++OA.Service
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.service\bin\debug\net5.0\oa.service.dll
+i:{00000000-0000-0000-0000-000000000000}:OA.Service
+++FolderProfile.pubxml
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\properties\publishprofiles\folderprofile.pubxml
+++FolderProfile1.pubxml
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\properties\publishprofiles\folderprofile1.pubxml
+++FolderProfile2.pubxml
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\properties\publishprofiles\folderprofile2.pubxml
+++FTPProfile.pubxml
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\properties\publishprofiles\ftpprofile.pubxml
+++AppSettingBase.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\appsettingsbase\appsettingbase.cs
+++FeatureFlags.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\featureflagsbase\featureflags.cs
+++RedirectDisabledFeatureHandler.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\featureflagsbase\redirectdisabledfeaturehandler.cs
+++HttpClientBase.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\httpclientsbase\httpclientbase.cs
+++IHttpClientBase.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\common\httpclientsbase\ihttpclientbase.cs
+++AntiXssMiddleware.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\middleware\antixssmiddleware\antixssmiddleware.cs
+++CrossSiteScriptingValidation.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\middleware\antixssmiddleware\crosssitescriptingvalidation.cs
+++CustomExceptionHandling.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\middleware\exceptionhandling\customexceptionhandling.cs
+++ExceptionHandling.cs
+i:{22c50505-5d13-48af-973e-616c1a0a805d}:e:\projects\git\evaluation-app-api\oa.api\middleware\exceptionhandling\exceptionhandling.cs
+++OA.Repo
+i:{00000000-0000-0000-0000-000000000000}:OA.Repo
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.repo\bin\debug\net5.0\oa.repo.dll
+++Migrations
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\migrations\
+++AppDbContext.cs
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\appdbcontext.cs
+++IRepository.cs
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\irepository.cs
+++Repository.cs
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\repository.cs
+++20220309054638_create-data-base.cs
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\migrations\20220309054638_create-data-base.cs
+++AppDbContextModelSnapshot.cs
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\migrations\appdbcontextmodelsnapshot.cs
+++OA.Data
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.data\bin\debug\net5.0\oa.data.dll
+i:{00000000-0000-0000-0000-000000000000}:OA.Data
+++20220309054638_create-data-base.Designer.cs
+i:{4e0c099e-9901-4709-aae1-8ce98477e904}:e:\projects\git\evaluation-app-api\oa.repo\migrations\20220309054638_create-data-base.designer.cs
+++ServiceViewModel
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\
+++ExceptionHandlingModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\exceptionhandlingmodel.cs
+++FireBaseViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\firebaseviewmodel.cs
+++GoogleRecaptchaViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\googlerecaptchaviewmodel.cs
+++HealthCheckResponseModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\healthcheckresponsemodel.cs
+++MailerDominModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\mailerdominmodel.cs
+++DepartmentEmployeeViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\departmentemployeeviewmodel.cs
+++DepartmentViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\departmentviewmodel.cs
+++EvaluationViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\evaluationviewmodel.cs
+++RolesViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\rolesviewmodel.cs
+++SubDepartmentViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\subdepartmentviewmodel.cs
+++UserManageViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\usermanageviewmodel.cs
+++UserViewModel.cs
+i:{6320db4b-4f99-4301-87f6-1cd9b85a3378}:e:\projects\git\evaluation-app-api\oa.dtos\serviceviewmodel\userviewmodel.cs
+++Maps
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\maps\
+++Models
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\models\
+++BaseEntity.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\baseentity.cs
+++AspNetUserMap.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\maps\aspnetusermap.cs
+++DepartmentEmployeeMap.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\maps\departmentemployeemap.cs
+++DepartmentMap.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\maps\departmentmap.cs
+++EvaluationMap.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\maps\evaluationmap.cs
+++SubDepartmentMap.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\maps\subdepartmentmap.cs
+++AspNetUser.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\models\aspnetuser.cs
+++Department.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\models\department.cs
+++DepartmentEmployee.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\models\departmentemployee.cs
+++Evaluation.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\models\evaluation.cs
+++SubDepartment.cs
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:e:\projects\git\evaluation-app-api\oa.data\models\subdepartment.cs
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.13)
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:>1679
+++Microsoft.EntityFrameworkCore (5.0.13)
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:>1676
+++Microsoft.EntityFrameworkCore.Relational (5.0.13)
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:>1680
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.13)
+i:{fb9e9b44-e044-41e9-9e7d-28419d35c22b}:>1677
+++Dictionarys
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\dictionarys\
+++Enums
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\enums\
+++Helpers
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\
+++Messages
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\messages\
+++IRolesDictionary.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\dictionarys\irolesdictionary.cs
+++RolesDictionary.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\dictionarys\rolesdictionary.cs
+++EnumFilter.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\enums\enumfilter.cs
+++Enums.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\enums\enums.cs
+++FeedBack.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\enums\feedback.cs
+++DateTimes
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\datetimes\
+++GenerateRandoms
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\generaterandoms\
+++JsonHelper.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\jsonhelper.cs
+++FireBaseMessages.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\messages\firebasemessages.cs
+++SystemMessages.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\messages\systemmessages.cs
+++Nancy (2.0.0)
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:>1664
+++NEST (7.16.0)
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:>1667
+++CustomDateTime.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\datetimes\customdatetime.cs
+++ICustomDateTime.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\datetimes\icustomdatetime.cs
+++GenerateRandom.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\generaterandoms\generaterandom.cs
+++IGenerateRandom.cs
+i:{eea6c977-acf8-4292-bcc5-0af9c49fefab}:e:\projects\git\evaluation-app-api\oa.base\helpers\generaterandoms\igeneraterandom.cs
+++Interfaces
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\interfaces\
+++Services
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\
+++ICrud.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\interfaces\icrud.cs
+++IRole.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\interfaces\irole.cs
+++ITransaction.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\interfaces\itransaction.cs
+++IUserAuth.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\interfaces\iuserauth.cs
+++IUserManage.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\interfaces\iusermanage.cs
+++IUserRole.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\interfaces\iuserrole.cs
+++DepartmentEmployeeService.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\departmentemployeeservice.cs
+++DepartmentService.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\departmentservice.cs
+++EvaluationService.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\evaluationservice.cs
+++Role.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\role.cs
+++SubDepartmentService.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\subdepartmentservice.cs
+++Transaction.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\transaction.cs
+++UserAuth.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\userauth.cs
+++UserManage.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\usermanage.cs
+++UserRole.cs
+i:{923f1df5-df2e-45de-9380-7fafef774efc}:e:\projects\git\evaluation-app-api\oa.service\services\userrole.cs

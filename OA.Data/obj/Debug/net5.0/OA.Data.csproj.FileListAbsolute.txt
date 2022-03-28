@@ -12,3 +12,4 @@ E:\Projects\git\evaluation-app-api\OA.Data\obj\Debug\net5.0\OA.Data.dll
 E:\Projects\git\evaluation-app-api\OA.Data\obj\Debug\net5.0\ref\OA.Data.dll
 E:\Projects\git\evaluation-app-api\OA.Data\obj\Debug\net5.0\OA.Data.pdb
 E:\Projects\git\evaluation-app-api\OA.Data\obj\Debug\net5.0\OA.Data.genruntimeconfig.cache
+E:\Projects\git\evaluation-app-api\OA.Data\obj\Debug\net5.0\OA.Data.csproj.AssemblyReference.cache
