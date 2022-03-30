@@ -9,7 +9,7 @@ namespace OA.Data.Maps
         public AspNetUserMap(EntityTypeBuilder<AspNetUser> entityBuilder)
         {
             entityBuilder.HasKey(t => t.Id);
-            entityBuilder.Property(x => x.UserName).HasMaxLength(10);
+            entityBuilder.Property(x => x.UserName).HasMaxLength(50);
         }
     }
 }
