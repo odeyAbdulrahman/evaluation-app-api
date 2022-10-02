@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj": {}
+    "D:\\programing\\git\\api\\evaluation-app-api\\OA.Service\\OA.Service.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
+    "D:\\programing\\git\\api\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj",
+        "projectUniqueName": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Base\\OA.Base.csproj",
         "projectName": "OA.Base",
-        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj",
-        "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\obj\\",
+        "projectPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Base\\OA.Base.csproj",
+        "packagesPath": "C:\\Users\\97150\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadhiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\97150\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,10 @@
             "Nancy": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -67,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj": {
+    "D:\\programing\\git\\api\\evaluation-app-api\\OA.Data\\OA.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
+        "projectUniqueName": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
         "projectName": "OA.Data",
-        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
-        "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\obj\\",
+        "projectPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Data\\OA.Data.csproj",
+        "packagesPath": "C:\\Users\\97150\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadhiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\97150\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -137,6 +141,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.13, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -154,24 +162,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj": {
+    "D:\\programing\\git\\api\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
+        "projectUniqueName": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
         "projectName": "OA.Repo",
-        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
-        "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\obj\\",
+        "projectPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj",
+        "packagesPath": "C:\\Users\\97150\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Repo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadhiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\97150\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -185,8 +193,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj": {
-                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Data\\OA.Data.csproj"
+              "D:\\programing\\git\\api\\evaluation-app-api\\OA.Data\\OA.Data.csproj": {
+                "projectPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Data\\OA.Data.csproj"
               }
             }
           }
@@ -206,6 +214,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.13, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -223,24 +235,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj": {
+    "D:\\programing\\git\\api\\evaluation-app-api\\OA.Service\\OA.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj",
+        "projectUniqueName": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Service\\OA.Service.csproj",
         "projectName": "OA.Service",
-        "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\OA.Service.csproj",
-        "packagesPath": "C:\\Users\\sadhiq\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Service\\obj\\",
+        "projectPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Service\\OA.Service.csproj",
+        "packagesPath": "C:\\Users\\97150\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sadhiq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\97150\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -254,11 +266,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
-                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Base\\OA.Base.csproj"
+              "D:\\programing\\git\\api\\evaluation-app-api\\OA.Base\\OA.Base.csproj": {
+                "projectPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Base\\OA.Base.csproj"
               },
-              "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj": {
-                "projectPath": "E:\\Projects\\git\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj"
+              "D:\\programing\\git\\api\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj": {
+                "projectPath": "D:\\programing\\git\\api\\evaluation-app-api\\OA.Repo\\OA.Repo.csproj"
               }
             }
           }
@@ -287,7 +299,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
